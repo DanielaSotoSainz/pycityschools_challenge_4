@@ -13,62 +13,70 @@ In this case, the school board told Maria to clean the data again because they f
 The complete analysis was made during the module and the modifications of the grades from Thomas High School during the challenge. The first part involved changing the value in Math and Reading Grades from Thomas High School students to a NaN. Image 1. shows that those values were changed correctly.
 
 ###### Image 1. Students data with NaNs.
-!
+![Image 1. Students data with NaNs.](Other_Resources/DataWithNaNs.PNG)
 
 * District Summary
+
 The next part was the creation of the District Summary, where the analysis was repeated using the new data. Image 2. has the dataframe with the first results and Image 3. has the results with the new data. The differences between Images are the decimal number from “% Passing Math”, “% Passing Reading” and “% Overall Passing”. These differences are minimal, if those numbers from the New District Summary are rounded, the results will be similar as the ones in the first District Summary.
 
 ###### Image 2. District Summary Results.
-!
+![Image 2. District Summary Results.](Other_Resources/DistrictSummary.PNG)
 
 ###### Image 3. New District Summary Results.
-!
+![Image 3. New District Summary Results.](Other_Resources/NewDistrictSummary.PNG)
 
 * School Summary
+
 The other analysis repeated was for the School Summary. In this case, the difference between “% Passing Math”, “% Passing Reading” and “% Overall Passing” are important. The results in “% Passing Math” went from 93.185690 to 66.911315, in “% Passing Reading” went from 97.018739 to 69.663609 and in “% Overall Passing” went from 90.630324 to 65.076453, as can be seen in Image 4. and Image 5. The results went down replacing the values with NaNs in Math and Reading Scores. Therefore, the Overall Passing Percentage went down. 
 
 ###### Image 4. School Summary Results.
-!
+![Image 4. School Summary Results.](Other_Resources/SchoolSummary.PNG)
 
 ###### Image 5. New School Summary Results.
-!
+![Image 5. New School Summary Results.](Other_Resources/NewSchoolSummary.PNG)
 
 * Thomas High School’s Performance
+
 The analysis based on High Schools was made changing the ninth graders’ math and reading scores. In Image 6, the results from the first analysis can be seen, where “Thomas High School” was at the second place based on the “% Overall Passing”. After doing the analysis for the second time, “Thomas High School” went down. Image 7. shows that the High School is now at the 8th place, from the Bottom to the Top. The change in the results is clearly notorious, the “% Overall Passing ” values went from 90.630324 to 65.076453.
 
 ###### Image 6. Top 5 Schools.
-!
+![Image 6. Top 5 Schools.](Other_Resources/Top5Schools.PNG)
 
 ###### Image 7. New Bottom Schools.
-!
+![Image 7. New Bottom Schools.](Other_Resources/NewBottom5Schools.PNG)
 
 * Scores
-Math and Reading Scores by Grade
+
+#### Math and Reading Scores by Grade
+
 Image 8. and Image 9. show the results after changing the data with NaNs. The first analysis had the incorrect value at the “9th” Grade column, but in this case the value was replaced with “nan”.
 
 ###### Image 8. New Math Scores.
-!
+![Image 8. New Math Scores.](Other_Resources/NewMathScores.PNG)
 
 ###### Image 9. New Reading Scores.
-!
+![Image 9. New Reading Scores.](Other_Resources/NewReadingScores.PNG)
 
-Scores by School Spending
+#### Scores by School Spending
+
 The analysis was made based on School Spending, where the ranges were “<$586”, “$586-630”, “$631-645” and “$646-675”, as it is shown in Image 10. The comparison between the results of the first and second analysis weren’t notorious. The final results were rounded so it was difficult to see those little differences between them.
 
 ###### Image 10. Grades by School Spending.
-!
+![Image 10. Grades by School Spending.](Other_Resources/NewSchoolSpendingResults.PNG)
 
-Scores by School Size
+#### Scores by School Size
+
 The results in the new School Size analysis were quite the same as in the first analysis. The differences of the results weren’t a big deal. The results can be seen in Image 11.
 
 ###### Image 11. Grades by School Size.
-!
+![Image 11. Grades by School Size.](Other_Resources/NewSchoolSize.PNG)
 
-Scores by School Type
+#### Scores by School Type
+
 In the analysis of School Type, the same happened as in the other two analyses, where the difference wasn’t notorious or relevant for the data. It is important to mention that the difference can be seen just before the decimal point. Image 12. shows the rounded results with no decimal point.
 
 ###### Image 12. Grades by School Type.
-!
+![Image 12. Grades by School Type.](Other_Resources/NewSchoolType.PNG)
 
 
 ## School District Analysis Summary: 
